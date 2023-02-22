@@ -49,11 +49,17 @@ $watch_bg: #fbfbf8;
 	@media (max-width: 1360px) {
 		margin-right: 20px;
 	}
+
+	@media (max-width: 555px) {
+		right: 35%;
+		bottom: 10px;
+	}
 }
 
 .screen_2__menu_watches {
 	display: grid;
 	grid-template-columns: repeat(3, auto);
+	row-gap: 20px;
 	justify-content: space-between;
 
 	> li {
