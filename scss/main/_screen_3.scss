@@ -1,0 +1,53 @@
+.screen_3 {
+	display: flex;
+	align-items: center;
+	width: 1366px;
+	margin: 0 auto;
+	justify-content: space-between;
+	//gap: 70px;
+
+	padding-top: 80px;
+	padding-bottom: 90px;
+}
+
+.screen_3__info__text {
+	font-size: 36px;
+	margin-bottom: 125px;
+}
+
+.screen_3__info__title {
+	font-family: 'Playfair Display';
+
+	line-height: 43px;
+
+	color: #1b1a17;
+	margin-bottom: 40px;
+}
+
+.screen_3__info__descrip {
+	width: 376px;
+	font-family: 'Roboto';
+	font-size: 0.45em;
+	line-height: 27px;
+}
+
+.screen_3__descrip__bold {
+	font-weight: 600;
+}
+
+.screen_3__info__menu_icons {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.screen_3__imgs {
+	display: flex;
+	gap: 20px;
+}
+
+.screen_3__imgs__little {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}

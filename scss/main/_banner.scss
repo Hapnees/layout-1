@@ -1,0 +1,154 @@
+.banner__wrapper {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(90deg, #f7f5ef 25%, #fdfdfb 100%);
+	padding: 53px 0;
+}
+
+.banner {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 70px;
+	font-size: 36px;
+	background-color: transparent;
+}
+
+.banner__img {
+	@media (max-width: 1033px) {
+		display: none;
+	}
+}
+
+.banner__info {
+	background-color: transparent;
+}
+
+.banner__title {
+	font-family: 'Playfair Display';
+	margin-bottom: 40px;
+	background-color: transparent;
+}
+
+.banner__descrip {
+	width: 420px;
+	font-family: 'Roboto';
+	font-size: 0.5em;
+	line-height: 150%;
+	background-color: transparent;
+	margin-bottom: 45px;
+}
+
+.banner__btn {
+	background-color: #d4b098;
+	color: #fff;
+	font-family: 'Roboto';
+	font-weight: 500;
+	line-height: 14px;
+	letter-spacing: 0.05em;
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+
+	font-size: 14px;
+	padding: 26px 38px;
+}
+
+.banner__page {
+	position: absolute;
+	display: flex;
+	align-items: center;
+
+	gap: 15px;
+	bottom: -40px;
+	right: 58%;
+
+	font-family: 'Prata';
+	font-size: 14px;
+	line-height: 16px;
+	color: #1b1a17d1;
+	background-color: transparent;
+}
+
+.banner__page__count {
+	margin-bottom: 2px;
+	cursor: pointer;
+}
+
+.banner__symbol_prev {
+	position: relative;
+	background-color: #1b1a17;
+	height: 1px;
+	width: 10px;
+	transform: rotate(45deg);
+	cursor: pointer;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: -5px;
+		left: -5px;
+		display: block;
+		background-color: #1b1a17;
+		height: 1px;
+		width: 10px;
+		transform: rotate(90deg);
+	}
+}
+
+.banner__symbol_next {
+	position: relative;
+	background-color: #1b1a17;
+	height: 1px;
+	width: 10px;
+	transform: rotate(-45deg);
+	cursor: pointer;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: -5px;
+		left: 5px;
+		display: block;
+		background-color: #1b1a17;
+		height: 1px;
+		width: 10px;
+		transform: rotate(90deg);
+	}
+}
+
+.banner__arc_1 {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	border-radius: 0 0 0 100%;
+	right: 0;
+	top: 0;
+
+	border-left: 1px solid #d4b098;
+	border-bottom: 1px solid #d4b098;
+	background-color: transparent;
+
+	@media (max-width: 1755px) {
+		display: none;
+	}
+}
+
+.banner__arc_2 {
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	border-radius: 100% 0 0 0;
+	right: 0px;
+	bottom: 0px;
+
+	border-left: 1px solid #d4b098;
+	border-top: 1px solid #d4b098;
+	background-color: transparent;
+
+	@media (max-width: 1755px) {
+		display: none;
+	}
+}
